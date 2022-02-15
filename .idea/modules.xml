@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/paw-common/paw-common.iml" filepath="$PROJECT_DIR$/paw-common/paw-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paw-crawling-interface/paw-crawling-interface.iml" filepath="$PROJECT_DIR$/paw-crawling-interface/paw-crawling-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/white-paw.iml" filepath="$PROJECT_DIR$/.idea/white-paw.iml" />
     </modules>
   </component>

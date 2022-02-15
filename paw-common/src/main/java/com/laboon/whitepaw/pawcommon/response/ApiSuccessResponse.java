@@ -1,11 +1,10 @@
 package com.laboon.whitepaw.pawcommon.response;
 
-import com.laboon.whitepaw.pawcommon.config.Constants;
-import lombok.Getter;
-import lombok.Setter;
+import com.laboon.whitepaw.pawcommon.constants.Constants;
+import lombok.Data;
 
-@Getter
-@Setter
+
+@Data
 public class ApiSuccessResponse extends ApiResponse {
     private Object data;
 

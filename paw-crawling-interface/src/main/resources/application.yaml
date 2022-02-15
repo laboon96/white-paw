@@ -1,11 +1,16 @@
+server:
+  port: 9000
+
 spring:
   datasource:
-    url: jdbc:h2:mem:product
-    driverClassName: org.h2.Driver
-    username: sa
-    password: password
+    url: jdbc:mysql://localhost:3306/whitepaw?useSSL=false&createDatabaseIfNotExist=true&useUnicode=yes&characterEncoding=UTF-8
+    username: root
+    password: Test@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
-    databasePlatform: org.hibernate.dialect.H2Dialect
-  h2:
-    console:
-      enabled: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+
+  application:
+    name: paw-interface

@@ -1,6 +1,6 @@
 package com.laboon.whitepaw.pawcommon.response;
 
-import com.laboon.whitepaw.pawcommon.config.Constants;
+import com.laboon.whitepaw.pawcommon.constants.Constants;
 import lombok.Getter;
 import lombok.Setter;
 
