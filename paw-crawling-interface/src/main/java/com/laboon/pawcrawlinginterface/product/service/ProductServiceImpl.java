@@ -1,8 +1,8 @@
-package com.example.pawcrawlinginterface.product.service;
+package com.laboon.pawcrawlinginterface.product.service;
 
-import com.example.pawcrawlinginterface.product.entity.Product;
-import com.example.pawcrawlinginterface.product.entity.ProductRequest;
-import com.example.pawcrawlinginterface.product.repository.ProductRepository;
+import com.laboon.pawcrawlinginterface.product.entity.Product;
+import com.laboon.pawcrawlinginterface.product.entity.ProductRequest;
+import com.laboon.pawcrawlinginterface.product.repository.ProductRepository;
 import com.laboon.whitepaw.pawcommon.constants.ErrorConstant;
 import com.laboon.whitepaw.pawcommon.exception.ApiException;
 import com.laboon.whitepaw.pawcommon.model.ResultPage;

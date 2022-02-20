@@ -1,4 +1,4 @@
-package com.example.pawcrawlinginterface.product.entity;
+package com.laboon.pawcrawlinginterface.product.entity;
 
 import lombok.Data;
 import lombok.NonNull;

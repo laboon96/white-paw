@@ -1,6 +1,6 @@
-package com.example.pawcrawlinginterface.product.repository;
+package com.laboon.pawcrawlinginterface.product.repository;
 
-import com.example.pawcrawlinginterface.product.entity.Product;
+import com.laboon.pawcrawlinginterface.product.entity.Product;
 import org.springframework.data.repository.CrudRepository;
 
 public interface ProductRepository extends CrudRepository<Product, Integer> {

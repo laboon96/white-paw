@@ -1,7 +1,7 @@
-package com.example.pawcrawlinginterface.controller;
+package com.laboon.pawcrawlinginterface.controller;
 
-import com.example.pawcrawlinginterface.product.entity.ProductRequest;
-import com.example.pawcrawlinginterface.product.service.ProductService;
+import com.laboon.pawcrawlinginterface.product.entity.ProductRequest;
+import com.laboon.pawcrawlinginterface.product.service.ProductService;
 import com.laboon.whitepaw.pawcommon.exception.ApiException;
 import com.laboon.whitepaw.pawcommon.response.ApiResponse;
 import com.laboon.whitepaw.pawcommon.response.ApiSuccessResponse;
