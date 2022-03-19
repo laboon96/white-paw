@@ -1,0 +1,8 @@
+server:
+  port: 8880
+
+spring:
+  application:
+    name: paw-interface
+
+
